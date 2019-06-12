@@ -1,8 +1,6 @@
 import sys
 import base64
 
-
-
 def hexStr2Base64(hexstring):
     decodedHexString = bytes.fromhex(hexstring)
     decodedBase64 = base64.b64encode(decodedHexString)
